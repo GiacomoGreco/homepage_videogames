@@ -1,3 +1,16 @@
 .levels-bg {
     background-image: url(bg-game.jpg);
+    min-height:270pt;
+
+    animation: bgAnim 2s linear infinite;
+}
+
+@keyframes bgAnim{
+    0%{
+        background-position: -0px;
+    }
+    100%{
+        background-position: -576px;
+    }
+    
 }
