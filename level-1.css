@@ -1,6 +1,6 @@
 .levels-bg {
-    background-image: url(bg-game.jpg);
-    min-height:270pt;
+    background-image: url(bg-level-01.png);
+    min-height:300pt;
 
     animation: bgAnim 2s linear infinite;
 }
@@ -18,4 +18,14 @@
 .level-image{
     width: 150px;
     margin-left: auto ;
+}
+
+.monkey{
+    margin-top: 100pt;
+}
+
+.barrel-1{
+    float: right;
+    margin-top: 125pt;
+
 }
