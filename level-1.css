@@ -1,6 +1,6 @@
 .levels-bg {
-    background-image: url(bg-level-01.png);
-    min-height:300pt;
+    background-image: url(level-1-bg.jpg);
+    min-height:869px;
 
     animation: bgAnim 2s linear infinite;
 }
@@ -10,7 +10,7 @@
         background-position: -0px;
     }
     100%{
-        background-position: -576px;
+        background-position: -1391px;
     }
     
 }
@@ -21,11 +21,5 @@
 }
 
 .monkey{
-    margin-top: 100pt;
-}
-
-.barrel-1{
-    float: right;
-    margin-top: 125pt;
-
+    margin-top: 475px;
 }
