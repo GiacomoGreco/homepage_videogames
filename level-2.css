@@ -1,24 +1,14 @@
-.levels-bg {
-    background-image: url(level-2-bg.jpg);
-    min-height:300px;
+/* .barrel {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 370px;
+    justify-content: center;
+    flex-direction: row-reverse;
 
-    animation: bgAnim 2s linear infinite;
+
+} */
+.barrel img{
+    width: 175px;
+    background:red;
 }
 
-@keyframes bgAnim{
-    0%{
-        background-position: -0px;
-    }
-    100%{
-        background-position: -640px;
-    }
-}
-
-.level-image{
-    width: 150px;
-    margin-left: auto ;
-}
-
-.monkey{
-    margin-top: 475px;
-}

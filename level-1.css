@@ -1,25 +1,2 @@
 .levels-bg {
-    background-image: url(level-1-bg.jpg);
-    min-height:869px;
-
-    animation: bgAnim 2s linear infinite;
-}
-
-@keyframes bgAnim{
-    0%{
-        background-position: -0px;
-    }
-    100%{
-        background-position: -1391px;
-    }
-    
-}
-
-.level-image{
-    width: 150px;
-    margin-left: auto ;
-}
-
-.monkey{
-    margin-top: 475px;
 }
