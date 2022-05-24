@@ -45,16 +45,16 @@ margin: 0%;
 
 @keyframes jumpAnim{
     25%{
-        /* left: 10%; */
+        left: 10%; 
     }
 
     50%{
         bottom: 50%;
-        /*transform: rotate(30deg);*/
+        transform: rotate(30deg);
 
     }
     100%{
-        /*transform: rotate(00deg);*/
+        transform: rotate(00deg);
         bottom: 20%;
     }
 }
@@ -63,9 +63,9 @@ margin: 0%;
 .moving{
     animation: moveAnim 3000ms linear;
 }
-/*@keyframes moveAnim{
+@keyframes moveAnim{
     100%{
-        /* transform: rotate(00deg); */
-        /*left: -20%;
+        transform: rotate(00deg);
+        left: -20%;
     }
 }
