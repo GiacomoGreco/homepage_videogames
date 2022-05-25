@@ -31,14 +31,6 @@ margin: 0%;
     bottom: 20%;
 }
 
-
-.barrel{
-    position: absolute;
-    bottom: 20%;
-    left: 100%;
-}
-
-
 .jump{
     animation: jumpAnim 2000ms;
 }

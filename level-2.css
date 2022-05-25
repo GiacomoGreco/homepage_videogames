@@ -1,13 +1,12 @@
-.barrel{
+.barrel-3{
     display: flex;
     flex-wrap: wrap;
-    min-width: 175px;
+    min-width: 350px;
     justify-content: center;
     flex-direction: row-reverse;
-
-
-} 
-.barrel{
-    width: 175px;
-    background:red;
+    width: 350px;
+    /*background:red;*/
+    position: absolute;
+    bottom: 20%;
+    left: 100%;
 }
