@@ -1,2 +1,12 @@
-.levels-bg {
+.barrel{
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 175px;
+    justify-content: center;
+    flex-direction: row-reverse;
+    width: 175px;
+    /*background:red;*/
+    position: absolute;
+    bottom: 20%;
+    left: 100%;
 }
