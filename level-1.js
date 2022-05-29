@@ -2,7 +2,7 @@
 const donkey = document.querySelector('.monkey')
 let jumping = false
 
-const barrel1 = document.querySelector('.barrel')
+const barrel1 = document.querySelector('.barrelLevel1')
 let moving1 = false
 
 let countBarrels = 0 

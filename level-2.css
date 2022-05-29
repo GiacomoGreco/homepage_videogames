@@ -1,9 +1,12 @@
-.barrels-3{
+.barrelsLevel2{
     display: flex;
     flex-wrap: wrap;
-    min-width: 350px;
+    min-width: 175px;
     justify-content: center;
     flex-direction: row-reverse;
+    width: 175px;
+    /*background:red;*/
+    position: absolute;
     bottom: 20%;
     left: 100%;
 }

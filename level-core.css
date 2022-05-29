@@ -1,63 +1,63 @@
 body {
-margin: 0%;
-}
-
-.levels-bg {
-    background-image: url('level-bg.jpg');
-    min-height:869px;
-    animation: bgAnim 4s linear infinite;
-    position:relative;
-    background-size: auto 100%;
-}
-
-@keyframes bgAnim{
-    0%{
-        background-position: -0px;
-    }
-    100%{
-        background-position: -1391px;
+    margin: 0%;
     }
     
-}
-
-.level-image{
-    width: 150px;
-    margin-left: auto ;
-}
-
-.monkey{
-    position: absolute;
-    width: 275px;
-    bottom: 20%;
-}
-
-.jump{
-    animation: jumpAnim 2000ms;
-}
-
-@keyframes jumpAnim{
-    25%{
-        left: 10%; 
+    .levels-bg {
+        background-image: url('level-bg.jpg');
+        min-height:869px;
+        animation: bgAnim 4s linear infinite;
+        position:relative;
+        background-size: auto 100%;
     }
-
-    50%{
-        bottom: 50%;
-        transform: rotate(30deg);
-
+    
+    @keyframes bgAnim{
+        0%{
+            background-position: -0px;
+        }
+        100%{
+            background-position: -1391px;
+        }
+        
     }
-    100%{
-        transform: rotate(00deg);
+    
+    .level-image{
+        width: 150px;
+        margin-left: auto ;
+    }
+    
+    .monkey{
+        position: absolute;
+        width: 275px;
         bottom: 20%;
     }
-}
-
-
-.moving{
-    animation: moveAnim 3000ms linear;
-}
-@keyframes moveAnim{
-    100%{
-        transform: rotate(00deg);
-        left: -20%;
+    
+    .jump{
+        animation: jumpAnim 2000ms;
     }
-}
+    
+    @keyframes jumpAnim{
+        25%{
+            /*left: 10%;*/
+        }
+    
+        50%{
+            bottom: 50%;
+            /*transform: rotate(30deg);*/
+    
+        }
+        100%{
+            /*transform: rotate(00deg);*/
+            bottom: 20%;
+        }
+    }
+    
+    
+    .moving{
+        animation: moveAnim 3000ms linear;
+    }
+    @keyframes moveAnim{
+        100%{
+            transform: rotate(00deg);
+            left: -20%;
+        }
+    }

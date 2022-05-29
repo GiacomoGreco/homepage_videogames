@@ -1,8 +1,8 @@
 // controllo delle variabili
-const donkey = document.querySelector('.monkey')
+const donkey = document.querySelector('.monkey-diamond')
 let jumping = false
 
-const barrel2 = document.querySelector('.barrelsLevel2')
+const barrel1 = document.querySelector('.barrelsLevel5')
 let moving1 = false
 
 let countBarrels = 0 
@@ -32,10 +32,10 @@ setInterval(() => {
     const random = Math.random()
     console.log(random)
     if (random < difficulty && moving1 == false){
-        barrel2.classList.add('moving')
+        barrel1.classList.add('moving')
         moving1 = true
         setTimeout(() => {
-            barrel2.classList.remove('moving')
+            barrel1.classList.remove('moving')
             moving1 = false
             countBarrels++
             if (countBarrels == goal){
