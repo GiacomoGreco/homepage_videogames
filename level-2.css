@@ -4,9 +4,6 @@
     min-width: 350px;
     justify-content: center;
     flex-direction: row-reverse;
-    width: 350px;
-    /*background:red;*/
-    position: absolute;
     bottom: 20%;
     left: 100%;
 }
