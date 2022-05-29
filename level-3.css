@@ -1,16 +1,14 @@
 .levels-bg {
     background-image: url(level-bg.jpg)
 }
-.barrel {
+.barrelsLevel3 {
     display: flex;
     flex-wrap: wrap;
     min-width: 370px;
     justify-content: center;
     flex-direction: row-reverse;
-
-
-} 
-.barrel img{
     width: 175px;
     background:red;
-}
+    bottom: 20%;
+    left: 100%;
+} 
