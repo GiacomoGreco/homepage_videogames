@@ -1,18 +1,13 @@
-.barrelsLevel5{
+.browser{
     display: flex;
     flex-wrap: wrap;
-    min-width:200px;
+    min-width:350px;
     justify-content: center;
     flex-direction: row-reverse;
-    width: 200px;
+    width: 350px;
     position: absolute;
     bottom:20%;
     left:100%;
-}
-
-.browser{
-    width: 350px;
-    bottom:20%;   
 }
 
 body {
@@ -53,16 +48,21 @@ body {
     
 @keyframes jumpAnim{
     25%{
-        /*left: 10%;*/
+        bottom:20%;
     }
-    
     50%{
-        bottom: 50%;
-        /*transform: rotate(30deg);*/
-    
+        bottom:60%;
+    }
+    75%{
+        bottom:55%;
+    }
+    90%{
+        bottom:35%;
+    }
+    95%{
+        bottom:27%;
     }
     100%{
-        /*transform: rotate(00deg);*/
         bottom: 20%;
     }
 }

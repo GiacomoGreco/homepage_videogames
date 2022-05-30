@@ -2,10 +2,10 @@
 const donkey = document.querySelector('.monkey-diamond')
 let jumping = false
 
-const barrel1 = document.querySelector('.barrelsLevel5')
+const browser = document.querySelector('.browser')
 let moving1 = false
 
-let countBarrels = 0 
+let countBrowser = 0 
 const goal = 10
 const difficulty = .8
 // when the user press the spacebar
@@ -32,13 +32,13 @@ setInterval(() => {
     const random = Math.random()
     console.log(random)
     if (random < difficulty && moving1 == false){
-        barrel1.classList.add('moving')
+        browser.classList.add('moving')
         moving1 = true
         setTimeout(() => {
-            barrel1.classList.remove('moving')
+            browser.classList.remove('moving')
             moving1 = false
-            countBarrels++
-            if (countBarrels == goal){
+            countBrowser++
+            if (countBrowser == goal){
                 alert("You won")
                 location.href= window.destination
             }
