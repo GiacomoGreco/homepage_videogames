@@ -37,16 +37,12 @@ body {
     
     @keyframes jumpAnim{
         25%{
-            /*left: 10%;*/
+            bottom:20%;
         }
-    
         50%{
-            bottom: 50%;
-            /*transform: rotate(30deg);*/
-    
+            bottom: 70%;    
         }
         100%{
-            /*transform: rotate(00deg);*/
             bottom: 20%;
         }
     }

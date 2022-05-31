@@ -25,9 +25,6 @@ document.onkeydown = (e) => {
     }
 }
 
-
-
-//now detect when enemy start
 setInterval(() => {
     const random = Math.random()
     console.log(random)

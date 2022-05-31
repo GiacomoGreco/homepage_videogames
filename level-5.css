@@ -51,16 +51,10 @@ body {
         bottom:20%;
     }
     50%{
-        bottom:60%;
+        bottom:70%;
     }
     75%{
-        bottom:55%;
-    }
-    90%{
-        bottom:35%;
-    }
-    95%{
-        bottom:27%;
+        bottom:70%;
     }
     100%{
         bottom: 20%;

@@ -1,27 +1,16 @@
-body{
-
-
-}
-
 .story{
- 
     font-family: 'Red Hat Mono', monospace;  
 }
 
 .title{
-
     font-family: 'Nanum Gothic', sans-serif;
-  
-
-
 } 
 
 .img{
-width: 400px ;
+    width: 400px ;
 }
 
 .intro{
- 
     font-family: 'Red Hat Mono', monospace;  
 }
 
@@ -31,21 +20,13 @@ width: 400px ;
 }
 
 .color{
-
     background-color: lightgreen;
-
 }
 
 .index{
-
-background-color: aquamarine;
-
+    background-color: aquamarine;
 }
 
 .why {
-
-
-background-color: skyblue;
-
-
+    background-color: skyblue;
 }

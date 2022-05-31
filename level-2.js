@@ -44,4 +44,4 @@ setInterval(() => {
             }
         },window.enemyTiming) 
     }
-},500)
+},400)
