@@ -11,7 +11,7 @@ const difficulty = .8
 // when the user press the spacebar
 document.onkeydown = (e) => {
     console.log(e.code)
-    if (e.code == "ArrowUp"){
+    if (e.code == "Space"){
         e.preventDefault()
         if (jumping == false){
             donkey.classList.add('jump')
@@ -45,3 +45,22 @@ setInterval(() => {
         },window.enemyTiming) 
     }
 },400)
+
+setInterval(() => {
+    if (isCollide(donkey, barrel2)){
+        alert("YOU lost")
+        location.href="GAME-OVER_level2.html"
+    }
+},30)
+
+function isCollide(a, b) {
+    var aRect = a.getBoundingClientRect();
+    var bRect = b.getBoundingClientRect();
+
+    return !(
+        ((aRect.top + aRect.height) < (bRect.top)) ||
+        (aRect.top > (bRect.top + bRect.height)) ||
+        ((aRect.left + aRect.width) < bRect.left) ||
+        (aRect.left > (bRect.left + bRect.width))
+    );
+}

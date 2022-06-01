@@ -36,7 +36,7 @@ body {
     }
     
     @keyframes jumpAnim{
-        25%{
+        0%{
             bottom:20%;
         }
         50%{
@@ -49,11 +49,11 @@ body {
     
     
     .moving{
-        animation: moveAnim 3000ms linear;
+        animation: moveAnim 20000ms linear;
     }
     @keyframes moveAnim{
         100%{
             transform: rotate(00deg);
-            left: -20%;
+            left: -1000%;
         }
     }

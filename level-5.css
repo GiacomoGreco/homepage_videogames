@@ -47,7 +47,7 @@ body {
 }
     
 @keyframes jumpAnim{
-    25%{
+    0%{
         bottom:20%;
     }
     50%{

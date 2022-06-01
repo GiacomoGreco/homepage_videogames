@@ -11,7 +11,7 @@ const difficulty = .8
 // when the user press the spacebar
 document.onkeydown = (e) => {
     console.log(e.code)
-    if (e.code == "ArrowUp"){
+    if (e.code == "Space"){
         e.preventDefault()
         if (jumping == false){
             donkey.classList.add('jump')
